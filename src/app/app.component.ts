@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DisplayComponent } from './display/display.component';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',

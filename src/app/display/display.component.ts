@@ -2,8 +2,6 @@ import { ServiceApiService } from './../service-api.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
-
-
 @Component({
   selector: 'app-display',
   templateUrl: './display.component.html',

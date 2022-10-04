@@ -18,7 +18,7 @@
         <div class="row text-center my-5">
             <div class="col-6 my-3">
                 <h3 class="bold-text text-center ">Search for Weather:</h3> <br>
-                <form [formGroup]="weatherSearchForm" (ngSubmit)="sendvalues(weatherSearchForm.value)">
+                <form [formGroup]="weatherSearchForm" (ngSubmit)="sendvalues(weatherSearchForm.value)"> 
                     <div class="form-group">
                         <input class="form-control" type="text" placeholder="Please input a Location"
                             formControlName="location" />
@@ -31,7 +31,6 @@
             </div>
 
             <div class="col-6 my-3">
-
                 <h3 class="bold-text text-center">Weather Details:</h3><br><br>
                 <p class="bold-text text-center ">Current Temperature: {{weatherdata?.current?.temperature}}&#176;C
                 </p>
